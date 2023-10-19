@@ -1,14 +1,12 @@
-# dwong, a package for DqrkQuest.
+# dwong, a package for DarkQuest.
 
 ![DQ Logo](/logo/DQ_logo.jpeg " inline image")
 
-A sample project that exists as an aid to the [Python Packaging User
-Guide][packaging guide]'s [Tutorial on Packaging and Distributing
-Projects][distribution tutorial].
+dwong is an integrated python package developed for data analysis and NN-based particle ID at DarkQuest experiment.
+This project aims to simplify the data analysis with sample data-processing functions.
 
-This project does not aim to cover best practices for Python project
-development as a whole. For example, it does not provide guidance or tool
-recommendations for version control, documentation, or testing.
+
+
 
 [The source for this project is available here][src].
 
