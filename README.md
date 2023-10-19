@@ -1,4 +1,4 @@
-# A sample Python project
+# dwong, a package for DqrkQuest data analysis
 
 ![Python Logo](https://www.python.org/static/community_logos/python-logo.png "Sample inline image")
 
