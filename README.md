@@ -1,4 +1,4 @@
-# dwong, a package for DqrkQuest data analysis
+# dwong, a package for DqrkQuest.
 
 ![DQ Logo](/logo/DQ_logo.jpeg " inline image")
 
