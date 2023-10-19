@@ -1,6 +1,6 @@
 # dwong, a package for DqrkQuest data analysis
 
-![Python Logo](https://www.python.org/static/community_logos/python-logo.png "Sample inline image")
+![DQ Logo](/logo/DQ_logo.jpeg " inline image")
 
 A sample project that exists as an aid to the [Python Packaging User
 Guide][packaging guide]'s [Tutorial on Packaging and Distributing
