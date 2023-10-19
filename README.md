@@ -5,6 +5,8 @@
 dwong is an integrated python package developed for data analysis and NN-based particle ID at DarkQuest experiment.
 This project aims to simplify the data analysis with sample data-processing functions.
 
+![scheme](/logo/darkquest_schematic.png " inline image")
+
 
 
 
