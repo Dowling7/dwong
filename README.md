@@ -10,9 +10,15 @@ The package mainly contains four modules: dwong, dplot, dcsv and dkeras.
   * prepare_data_bytuple
 * dplot
   * emcal_evt(x, y, eng)
-  * emcal_pdf(ntuple_name, filename, path)
+  * emcal_pdf(ntuple_name, fname, absolute_path)
 * dkeras
+  * train_model(x, y)
+  * save_model(model, fname)
+  * load_model(mname)
+  * plot_confusion_matrix(cm, names, title='Confusion matrix', cmap=plt.cm.Blues)
+  * plot_roc(pred,y)
 * dcsv
+  * gen_csv(filename)
 
   
 ![scheme](/logo/darkquest_schematic.png " inline image")
