@@ -3,6 +3,7 @@
 dwong is a comprehensive Python package, created by student Dowling Wong, tailored for data analysis and neural network-based particle identification in the DarkQuest experiment. The aim of this project is to streamline DarkQuest's data analysis process by providing exemplary data-processing functions.
 
 The package mainly contains four modules: dwong, dplot, dcsv and dkeras.
+##Contents and useful functions.
 * dwong
   * emcal_bytuple
   * multi_clusters
@@ -24,7 +25,7 @@ The package mainly contains four modules: dwong, dplot, dcsv and dkeras.
 ![scheme](/logo/darkquest_schematic.png " inline image")
 ## Smaple of use.
 
-###dwong, main module for data analysis.
+1. dwong, main module for data analysis.
 <pre>
  import dwong
  
@@ -44,7 +45,7 @@ The package mainly contains four modules: dwong, dplot, dcsv and dkeras.
  labeled_flat_list = [[label, *particle] for label, particle in zip(labels, flat_list)]#list of particles, in a flat list.
 </pre>
 
-###dplot, plot module.
+dplot, plot module.
 <pre>
  import dwong
  from dwong import dplot
@@ -91,7 +92,7 @@ may be appropriate.
 
 [packaging guide]: https://packaging.python.org
 [distribution tutorial]: https://packaging.python.org/tutorials/packaging-projects/
-[src]: https://github.com/pypa/sampleproject
+[src]: https://github.com/Dowling7/dwong/tree/main/src
 [rst]: http://docutils.sourceforge.net/rst.html
 [md]: https://tools.ietf.org/html/rfc7764#section-3.5 "CommonMark variant"
 [md use]: https://packaging.python.org/specifications/core-metadata/#description-content-type-optional
