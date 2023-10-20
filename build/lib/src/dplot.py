@@ -17,6 +17,8 @@ def emcal_evt(x, y, eng):
     plt.colorbar(im, ax=ax, label='Energy Deposit/GeV')
     ax.set_xlabel('EMCal x Position/cm')
     ax.set_ylabel('EMCal y Position/cm')
+
+    plt.show()
     
     return fig
 
