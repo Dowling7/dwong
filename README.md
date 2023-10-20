@@ -25,7 +25,7 @@ The package mainly contains four modules: dwong, dplot, dcsv and dkeras.
 ![scheme](/logo/darkquest_schematic.png " inline image")
 ## Smaple of use.
 
-1. dwong, main module for data analysis.
+### dwong, main module for data analysis.
 <pre>
  import dwong
  
@@ -45,7 +45,7 @@ The package mainly contains four modules: dwong, dplot, dcsv and dkeras.
  labeled_flat_list = [[label, *particle] for label, particle in zip(labels, flat_list)]#list of particles, in a flat list.
 </pre>
 
-dplot, plot module.
+### dplot, plot module.
 <pre>
  import dwong
  from dwong import dplot
@@ -68,8 +68,14 @@ dplot, plot module.
  
 </pre>
 
+## External Link
+*[DarkQuest Snowmass paper][snowmass].
+*[DarkQuest Collaboration code collection][DQ_collab].
+*[The source for this project is available here][src].
+*[Dowling's code collection for data analysis, model training, particle ID and samples][DQ_Dowling].
+*[Analysis package dwong's Pypi page][dwong_pypi].
+*[Dowling's personal website][personal_website].
 
-[The source for this project is available here][src].
 
 The metadata for a Python project is defined in the `pyproject.toml` file,
 an example of which is included in this project. You should edit this file
@@ -90,9 +96,9 @@ usage examples, etc. Generally, including the project changelog in here is not a
 good idea, although a simple “What's New” section for the most recent version
 may be appropriate.
 
-[packaging guide]: https://packaging.python.org
-[distribution tutorial]: https://packaging.python.org/tutorials/packaging-projects/
+[snowmass]: https://arxiv.org/abs/2203.08322
+[DQ_collab]: https://github.com/DarkQuest-FNAL
+[DQ_Dowling]: https://github.com/Dowling7/DQ_Dowling
 [src]: https://github.com/Dowling7/dwong/tree/main/src
-[rst]: http://docutils.sourceforge.net/rst.html
-[md]: https://tools.ietf.org/html/rfc7764#section-3.5 "CommonMark variant"
-[md use]: https://packaging.python.org/specifications/core-metadata/#description-content-type-optional
+[dwong_pypi]: https://pypi.org/project/dwong/
+[personal_website]: https://dowling7.github.io/my_website/
