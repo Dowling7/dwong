@@ -9,7 +9,7 @@ setup(
         'keras == 2.13.1',              
         'uproot >= 5.0.7',           
         'sklearn >= 1.2.2',
-        'matplotlib >= 3.7.1
+        'matplotlib >= 3.7.1'
        
     ],
     author='Dowling Wong',
