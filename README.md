@@ -5,10 +5,10 @@ dwong is a comprehensive Python package, created by student Dowling Wong, tailor
 The package mainly contains four modules: dwong, dplot, dcsv and dkeras.
 ## Contents and useful functions.
 * dwong
-  * emcal_bytuple
-  * multi_clusters
-  * h4_bytuple
-  * prepare_data_bytuple
+  * emcal_bytuple(dq_events)
+  * multi_clusters(dq_events)
+  * h4_bytuple(dq_events)
+  * prepare_data_bytuple(dq_events)
 * dplot
   * emcal_evt(x, y, eng)
   * emcal_pdf(ntuple_name, fname, absolute_path)
@@ -22,7 +22,7 @@ The package mainly contains four modules: dwong, dplot, dcsv and dkeras.
   * gen_csv(filename)
 
   
-![scheme](/logo/darkquest_schematic.png " inline image")
+![scheme](https://github.com/Dowling7/dwong/blob/main/logo/DQ_logo.jpeg)
 ## Smaple of use.
 
 ### dwong, main module for data analysis.
