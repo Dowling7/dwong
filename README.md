@@ -22,8 +22,12 @@ The package mainly contains four modules: dwong, dplot, dcsv and dkeras.
 
   
 ![scheme](/logo/darkquest_schematic.png " inline image")
-dwong is the main module for data analysis, developed with a high efficiency sequence of functions acquisiten data from n-tuple and 
-
+<pre>
+```python
+def hello_world():
+    print("Hello, world!")
+```
+</pre>
 
 
 [The source for this project is available here][src].
